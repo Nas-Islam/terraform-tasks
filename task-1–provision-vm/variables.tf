@@ -1,14 +1,15 @@
-// Location Name Variable
 variable "location" {
-    default = 
+    default = "uksouth"
 }
 
-// Project Name
-variable "project_name" {
-    default = 
+variable "user_name" {
+    default = "nas"
 }
 
-// VM Size
 variable "vm_size" {
-    default = 
+    default = "Standard_DS1_v2"
+}
+
+variable "project_name" {
+    default = "task1"
 }
