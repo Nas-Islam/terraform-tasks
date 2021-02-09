@@ -29,3 +29,5 @@ override.tf.json
 # example: *tfplan*
 *plan*
 task-3-environments/environment/production/.terraform.lock.hcl
+*.terraform.lock.hcl*
+*.terraform.lock.hcl
